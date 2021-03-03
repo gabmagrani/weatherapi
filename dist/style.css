@@ -1,0 +1,380 @@
+/* start: global styles */
+* {
+    outline: none;
+  }
+  
+  *:not(.slick-track), *:not(.slick-list) {
+    transition: 0.4s;
+  }
+  
+  body {
+    font-family: 'Roboto', 'Helvetica', 'Sans-serif';
+    margin: 0;
+    padding: 0;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.7;
+    color: #353535;
+  }
+  
+  h1,h3,   {
+    margin: 0;
+    padding: 0;
+    font-weight: 500;
+    letter-spacing: 2px;
+  }
+  
+  h1, h3, h4, h5 {
+    text-transform: uppercase;
+  }
+  
+  h2 {
+    font-size: 30px;
+  }
+  
+  h3 {
+    margin-bottom: 4rem;
+    text-align: center!important;
+    font-family: "Montserrat",sans-serif!important;
+    padding: 10px 30px!important;
+    font-size: 30px!important;
+    text-transform: uppercase;
+    font-weight: 600!important;
+    z-index: 9;
+    color: #FFF;
+  }
+  
+  h4 {
+    font-size: 1.15rem;
+  }
+  
+ 
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+ 
+  
+  a {
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  #header-subtitle {
+    color: #fff;
+    
+    font-size: 20px;
+  }
+  
+  section{
+    /*padding: 3rem 0;*/
+    text-align: center;
+  }
+  
+  .container {
+    max-width: 1100px;
+    margin: 0 auto;
+    position: relative;
+  }
+  
+  .flex {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .box {
+    text-align: center;
+  }
+
+
+  /* end: global styles */
+  
+  /* start: hero section styles */
+  li{
+    padding-top: 5px;
+    }
+    .w-1\/4{
+      padding: 10px;
+      }
+  @media(max-width: 642px){
+    .w-full,.bottom{
+    text-align: center;
+    }
+    .pl-8{
+    padding-left: 0px;
+    }
+    }
+
+
+  .card {
+    background: rgba(255,255,255, 0.2);
+    color: #333;
+    border-radius: 5px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    margin: 10px;
+  }
+  .showcase-form {
+    position: relative;
+   /* top: 50px;*/
+    height: 350px; 
+    width: 350px;
+    
+    z-index: 100;
+    justify-self: flex-end;
+    animation: slideInFromRight 1s ease-in;
+  }
+
+  .showcase-form .form-control {
+    margin: 20px 0;
+  }
+
+ 
+  
+  .showcase-form input[type="text"],
+  .showcase-form input[type="month"],select,
+  .showcase-form input [type="text"],select  {
+    width: 100%;
+    
+    font-size: 16px;
+    display: inline-block;
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 16px;
+   
+  }
+
+ label{
+   color: gray;
+   font-family: "Montserrat",sans-serif!important;
+   font-weight: 700;
+   font-size: 14px;
+   
+ }
+
+  /* Style the submit button */
+button[type="submit"] {
+  width: 100%;
+  background-color: #ec4c4c;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+
+  
+  
+  
+  
+  #search {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    margin-top: -7px;
+    width: auto;
+    padding: 0;
+    font-size: 15px;
+    border: none;
+    background: transparent;
+    color: #fff;
+  }
+  
+  
+  
+  #hero-slider .hero-slide-item {
+    position: relative;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+  }
+  
+  
+  
+  #hero-slider .hero-slider-marketing {
+    position: absolute;
+    z-index: 2;
+    /*text-align: center;*/
+    color: #fff;
+    top: 50%;
+    left: 0;
+    right: 0;
+    margin: -100px auto 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   /* flex-direction: column;*/
+  }
+  
+  #hero-slider .slick-dots {
+    bottom: 35px;
+  }
+  
+  #hero-slider .slick-dots li button:before {
+    color: #fff;
+    opacity: 1;
+    padding: 2px 2px 2px 3px;
+    border: 3px solid transparent;
+    border-radius: 20px;
+  }
+  
+ 
+  
+
+ /* DESTINATION STYLE*/
+
+
+
+.border-destination{
+  width: 230px;
+  height: 5px;
+  display: inline-block;
+  margin-top: 2px;
+  left: 50%;
+  
+}
+
+/* WEATHER STYLE */
+.container {
+  max-width: 400px;
+  min-width: 400px;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 50px;
+}
+
+.form-rounded {
+  border-radius: 2em;
+}
+
+.back-card {
+  border-radius: 40px !important;
+}
+
+.city-name {
+  position: absolute;
+  width: 100%;
+  
+}
+
+.city-name p {
+  font-size: 16pt;
+  font-weight: 400;
+}
+
+.city-name span {
+  font-weight: 400;
+  font-size: 36pt;
+  font-family: 'Times New Roman', Times, serif;
+  position: relative;
+  top: -60px;
+}
+
+.temp span {
+  font-weight: 100;
+  font-size: 5em;
+  letter-spacing: -5px;
+  white-space: nowrap;
+}
+.card-mid {
+  line-height: 0.5;
+}
+
+.condition {
+  line-height: 1em;
+  font-weight: 700;
+  font-size: 1em;
+  text-transform: capitalize;
+}
+.high::before {
+  content: '';
+  background: url('img/up.svg') no-repeat;
+  width: 10px;
+  height: 15px;
+  display: inline-block;
+  position: relative;
+  top: 3px;
+}
+
+.low::before {
+  content: '';
+  background: url('img/down.svg') no-repeat;
+  width: 10px;
+  height: 15px;
+  display: inline-block;
+  position: relative;
+  top: 3px;
+}
+.icon-container {
+  border-radius: 100%;
+  width: 100px;
+  height: 100px;
+  background: #202020;
+}
+.icon-container img {
+  margin: auto;
+}
+
+.card-bottom {
+  line-height: 0.5;
+}
+.card-bottom span {
+  font-size: 12px;
+}
+.card-bottom p {
+  font-size: 50px;
+  font-weight: 100;
+  letter-spacing: -2px;
+}
+
+
+
+/* FOOTER STYLE*/
+
+
+footer ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+footer ul li a {
+  color: #ec4c4c;
+  font-weight: bold!important;;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  font-weight: 300;
+}
+
+footer .mailing-list {
+  position: relative;
+}
+
+
+
+footer ul.social-icons {
+  max-width: 400px;
+  margin: 4rem auto 3rem;
+}
+
+footer ul.social-icons li a {
+  font-size: 1rem;
+}
+
+
+
+
+/* end: footer section styles */
+
+
