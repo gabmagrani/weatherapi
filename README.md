@@ -7,3 +7,7 @@ for the city you requested.
 # Weather-api
 
 [OpenWeatherApi](https://openweathermap.org/api)
+
+# How to run
+
+1. View index.html in your browser
